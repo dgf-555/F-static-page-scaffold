@@ -7,6 +7,7 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  background-color: #e9ebee;
 }
 
 * {
@@ -18,3 +19,95 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.header-backgroud {
+  background-color: #3b5998;
+}
+.header {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 981px;
+}
+
+.header-facebook {
+  display: flex;
+  align-items: center;
+}
+
+.register-button {
+  background-color: #42b72a;
+  color: white;
+  border: none;
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 22px;
+  width: 50px;
+}
+
+.join-facebook {
+  font-size: 15px;
+}
+
+.main-backgroud {
+  background-color: rgb(230, 228, 228);
+}
+
+.main{
+  margin: 0 auto;
+  width: 981px;
+  padding: 50px 0;
+}
+
+.img-choice {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-hint {
+  margin-top: -20px;
+  padding: 0;
+}
+
+.main-hint h1{
+  margin: 0;
+  padding: 0;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+.figure {
+  width: 475px;
+  height: 450px;
+  margin-top: 30px;
+  background-color: white;  
+}
+
+.figure img{
+  margin-top: 20px;
+  margin-left: 135px;
+}
+
+figcaption p {
+  color:gray;
+  text-align: center;
+}
+
+figcaption h3 {
+  text-align: center;
+}
+
+button {
+  margin-top: 50px;
+  margin-left: 210px;
+  border: none;
+  height: 27px;
+  width: 50px;
+}
+
+
